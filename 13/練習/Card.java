@@ -6,13 +6,9 @@ public class Card {
 	//カードの番号の値を数列のフィールド変数化
 	int number;
 
-	//dispメソッドでフィールド変数(クラス内で使う変数)をコンソールに表示する
+	//dispメソッドを作成・呼び出された際に種類と番号を出力
 	public void disp() {
-		//カードの種類を出力する
 		System.out.println("種類＝" + suit);
-		//カードの番号を出力する
 		System.out.println("番号＝" + number);
-
 	}
-
 }
